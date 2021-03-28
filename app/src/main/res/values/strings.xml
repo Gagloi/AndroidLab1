@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="lengthConverter">Length converter</string>
+    <string name="weightConverter">Weight converter</string>
+    <string name="temperatureConverter">Temperature converter</string>
+    <string name="about">Piven Yaroslav KI - 172</string>
+    <string name="back">Back</string>
+</resources>
