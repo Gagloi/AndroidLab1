@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -22,7 +23,7 @@ public class MenuFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Button temperatureConverterButton = (Button) view.findViewById(R.id.temperatureConverter);
+        ImageButton temperatureConverterButton = (ImageButton) view.findViewById(R.id.temperatureConverter);
         Button weightConverterButton = (Button) view.findViewById(R.id.weightConverter);
         Button lengthConverterButton = view.findViewById(R.id.lengthConverter);
 
