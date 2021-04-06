@@ -1,8 +1,20 @@
 <resources>
-    <string name="app_name">Lab1</string>
-    <string name="lengthConverter">Length converter</string>
-    <string name="weightConverter">Weight converter</string>
-    <string name="temperatureConverter">Temperature converter</string>
-    <string name="about">Piven Yaroslav KI - 172</string>
-    <string name="back">Back</string>
+    <string name="app_name">Додаток Оракул</string>
+    <string name="menu">Меню</string>
+    <string name="ask_a_question">запитання</string>
+    <string name="exit">вихід</string>
+    <string name="settings">налаштування</string>
+    <string name="settings_name">Налаштування</string>
+    <string name="version">Version: 0.1</string>
+    <string name="name">Ім\'я</string>
+    <string name="surname">Прізвище</string>
+    <string name="enter_date">Дата народження</string>
+    <string name="male">чоловічий</string>
+    <string name="female">жіночий</string>
+    <string name="save">Зберігти</string>
+    <string name="get_answer">отримати відповідь</string>
+    <string name="question_title">Запитання</string>
+    <string name="write_your_question">Запитайте мене</string>
+    <string name="warning">Заповніть поля</string>
+    <string name="settings_warning">Заповніть поля</string>
 </resources>
