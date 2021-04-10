@@ -47,35 +47,6 @@ public class MainActivity extends AppCompatActivity {
             System.exit(0);
         });
 
-//        findViewById(R.id.kek)
-//                .setOnClickListener(v -> {
-//                    if (convertationService == null) return;
-//                    try {
-//                        convertationService.convert();
-//                        Log.d(TAG, convertationService.getLengths().toString());
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//                    Log.d(TAG, "Execute service method");
-//                });
-//        if(savedInstanceState == null) {
-//            MenuFragment menuFragment = new MenuFragment();
-//            getSupportFragmentManager().beginTransaction()
-//                    .add(R.id.fragmentContainer, menuFragment)
-//                    .commit();
-//        }
     }
 
-//    private ServiceConnection connection = new ServiceConnection() {
-//        @Override
-//        public void onServiceConnected(ComponentName name, IBinder service) {
-//            OracleService.ConvertationServiceBinder binder = (OracleService.ConvertationServiceBinder) service;
-//            convertationService = binder.getService();
-//        }
-//
-//        @Override
-//        public void onServiceDisconnected(ComponentName name) {
-//            convertationService = null;
-//        }
-//    };
 }
